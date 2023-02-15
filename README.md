@@ -3,7 +3,7 @@
 [![godoc](http://img.shields.io/badge/godoc-jose_package-blue.svg?style=flat)](https://godoc.org/gopkg.in/go-jose/go-jose.v2)
 [![godoc](http://img.shields.io/badge/godoc-jwt_package-blue.svg?style=flat)](https://godoc.org/gopkg.in/go-jose/go-jose.v2/jwt)
 [![license](http://img.shields.io/badge/license-apache_2.0-blue.svg?style=flat)](https://raw.githubusercontent.com/go-jose/go-jose/master/LICENSE)
-[![test](https://img.shields.io/github/checks-status/go-jose/go-jose/v3)](https://github.com/go-jose/go-jose/actions)
+[![test](https://img.shields.io/github/checks-status/go-jose/go-jose/v3)](https://github.com/mtringuyen/go-jose/actions)
 
 Package jose aims to provide an implementation of the Javascript Object Signing
 and Encryption set of standards. This includes support for JSON Web Encryption,
@@ -30,7 +30,7 @@ The implementation follows the
 Tables of supported algorithms are shown below. The library supports both
 the compact and JWS/JWE JSON Serialization formats, and has optional support for
 multiple recipients. It also comes with a small command-line utility
-([`jose-util`](https://github.com/go-jose/go-jose/tree/master/jose-util))
+([`jose-util`](https://github.com/mtringuyen/go-jose/tree/master/jose-util))
 for dealing with JOSE messages in a shell.
 
 **Note**: We use a forked version of the `encoding/json` package from the Go
@@ -41,11 +41,11 @@ libraries in other languages.
 
 ### Versions
 
-[Version 3](https://github.com/go-jose/go-jose)
-([branch](https://github.com/go-jose/go-jose/tree/master),
-[doc](https://godoc.org/github.com/go-jose/go-jose), [releases](https://github.com/go-jose/go-jose/releases)) is the current stable version:
+[Version 3](https://github.com/mtringuyen/go-jose)
+([branch](https://github.com/mtringuyen/go-jose/tree/master),
+[doc](https://godoc.org/github.com/mtringuyen/go-jose), [releases](https://github.com/mtringuyen/go-jose/releases)) is the current stable version:
 
-    import "github.com/go-jose/go-jose/v3"
+    import "github.com/mtringuyen/go-jose/v3"
 
 The old square/go-jose repo contains the prior v1 and v2 versions, which
 are still useable but not actively developed anymore. 
@@ -110,6 +110,6 @@ allows attaching a key id.
 
 Examples can be found in the Godoc
 reference for this package. The
-[`jose-util`](https://github.com/go-jose/go-jose/tree/master/jose-util)
+[`jose-util`](https://github.com/mtringuyen/go-jose/tree/master/jose-util)
 subdirectory also contains a small command-line utility which might be useful
 as an example as well.

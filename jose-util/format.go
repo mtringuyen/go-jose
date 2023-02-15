@@ -16,7 +16,7 @@
 
 package main
 
-import jose "github.com/go-jose/go-jose/v3"
+import jose "github.com/mtringuyen/go-jose/v3"
 
 func expand() {
 	input := string(readInput(*inFile))
