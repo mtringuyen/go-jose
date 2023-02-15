@@ -1,4 +1,4 @@
-module github.com/go-jose/go-jose/v3
+module github.com/mtringuyen/go-jose/v3
 
 go 1.12
 
